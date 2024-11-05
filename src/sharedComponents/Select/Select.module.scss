@@ -1,0 +1,18 @@
+.select {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 10 6'%3E%3Cpath stroke='%236B7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
+    background-position: right .75rem center;
+    background-repeat: no-repeat;
+    background-size: .75em .75em;
+    -webkit-print-color-adjust: exact;
+    text-transform: none;
+    appearance: none;
+    font-size: .875rem;
+    padding: .625rem 2.5rem .625rem .625rem;
+    border: 1px solid rgb(209 213 219);
+    border-radius: .5rem;
+    outline: none;
+
+    &:focus {
+        border: 1px solid rgb(63 131 248);
+    }
+}

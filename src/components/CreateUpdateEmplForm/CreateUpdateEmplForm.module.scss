@@ -1,0 +1,12 @@
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    color: red;
+    margin: 0;
+    font-size: 12px;
+}

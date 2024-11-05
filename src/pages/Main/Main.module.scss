@@ -1,0 +1,40 @@
+.tableContainer {
+    overflow-x: scroll;
+}
+
+.table {
+    width: 100%;
+    font-size: 14px;
+    min-width: 400px;
+}
+
+.tableHead {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #f9fafb;
+    color: #374151;
+}
+
+.tableHeader {
+    padding: 12px 24px;
+    font-weight: bold;
+}
+
+.tableBody {
+    tr {
+        background-color: #ffffff;
+
+        &:hover {
+            background-color: #f9fafb;
+        }
+    }
+}
+
+.linkEdit {
+    font-weight: 500;
+    color: #3b82f6;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

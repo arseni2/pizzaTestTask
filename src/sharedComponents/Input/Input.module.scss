@@ -1,0 +1,12 @@
+.input {
+    font-size: 12px;
+    background-color: #f9fafb;
+    padding: .625rem;
+    border: 1px solid rgb(209 213 219);
+    border-radius: .5rem;
+    outline: none;
+
+    &:focus {
+        border: 1px solid rgb(63 131 248);
+    }
+}

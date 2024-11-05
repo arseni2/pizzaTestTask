@@ -1,0 +1,16 @@
+.buttonPrimary {
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    padding: .8rem;
+    background-color: rgb(26 86 219);
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in background-color;
+
+    &:hover {
+        background-color: rgb(12, 65, 187);
+    }
+}
